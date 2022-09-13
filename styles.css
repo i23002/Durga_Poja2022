@@ -7,11 +7,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     overflow: hidden;
-    position: absolute;
+    position: fixed;
     padding-left: 0.5rem;
     font-size: 25px;
-    /*top: 0.2rem;
-    left: 270px;*/
     animation: openclose 20s ease-in-out infinite;
   }
   
@@ -127,4 +125,89 @@
     width: 20%;
     height: auto;
     
+}
+footer{
+  display: grid;
+  background-color: gray;
+  opacity: 0.89;
+  font-weight: bold;
+  padding:10px 10px 10px 10px;
+  color: black;
+
+}
+a{
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: brown;
+  cursor: pointer;;
+}
+a:hover{
+  background-color: darkgreen;
+  color: white;
+}
+@media (max-width:815px){
+  .message{
+    margin-top: -50px;
+    margin-left: -10px;
+    font-weight: 250;
+    margin-bottom: 10px;
+    font-size: 19px;
+    position: fixed;
+  }
+  #img{
+    display: block;
+    width: 259px;
+    height: auto;
+    margin-top: 60px;
+  }
+  .ladies{
+    display: flex;
+    flex-direction: column;
+  }
+  #shankha{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+  }
+  #dhunuchi{
+    display: block;
+    float: left;
+    margin-left: -100px;
+    max-width: 100%;
+    height: auto;
+  }
+  #img3{
+    display: block;
+    float: right;
+    margin-right: -100px;
+    max-width: 100%;
+    height: auto;
+  }
+  #last{
+    display: flex;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+  }
+  footer{
+    display: grid;
+    background-color: gray;
+    font-weight: bold;
+    padding:10px 10px 10px 10px;
+    color: black;
+  }
+  a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    cursor: pointer;;
+  }
+  a:hover{
+    background-color: darkgreen;
+    color: white;
+  }
+ 
+ 
 }

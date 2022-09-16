@@ -133,12 +133,13 @@ footer{
   font-weight: bold;
   padding:10px 10px 10px 10px;
   color: black;
+  text-align: center;
 
 }
 a{
   text-decoration: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: brown;
+  color: greenyellow;
   cursor: pointer;;
 }
 a:hover{
@@ -201,8 +202,8 @@ a:hover{
   a{
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: brown;
-    cursor: pointer;;
+    color: lime;
+    cursor: pointer;
   }
   a:hover{
     background-color: darkgreen;
